@@ -17,7 +17,8 @@ WordManager
     >>> word_manager.get(name="apple")
     >>>  Word(id=1, name="apple", image="http://www.langsea.org/media/library/apple.png")
 
-# CategoryManager
+CategoryManager
+---------------
 
 	>>> from langsea import CategoryManager
 	>>> category_manager = CategoryManager()
@@ -32,7 +33,8 @@ WordManager
 	>>> category_manager.get(name="fruits")
 	>>> Category(id=1, name="fruits", image="http://www.langsea.org/media/site/categories/fruits.png")
 
-# MessageManager
+MessageManager
+--------------
 
 	>>> from langsea import MessageManager
 	>>> message_manager = MessageManager()
