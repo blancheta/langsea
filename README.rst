@@ -1,17 +1,18 @@
 Langsea - Allow to manage easily objects provided by the Langsea API
 ========================================================
 
-# WordManager
+WordManager
+-----------
 
 	>>> from langsea import WordManager
     >>> word_manager = WordManager()
 
-	## Get words by category
+	-	Get words by category
 
     >>> word_manager.all(category='fruits')
     >>> [ Word(id=1, name="apple", image="http://www.langsea.org/media/library/apple.png"), Word(..), Word(..), ..]
 
-    ## Get a word
+	-	Get a word
 
     >>> word_manager.get(name="apple")
     >>>  Word(id=1, name="apple", image="http://www.langsea.org/media/library/apple.png")
@@ -21,12 +22,12 @@ Langsea - Allow to manage easily objects provided by the Langsea API
 	>>> from langsea import CategoryManager
 	>>> category_manager = CategoryManager()
 
-	## Get all categories
+	-	Get all categories
 
 	>>> category_manager.all()
 	>>> [Category(id=1, name="fruits", image="http://www.langsea.org/media/site/categories/fruits.png"), Category(..), Category(..)]
 
-	## Get a category by name
+	-	Get a category by name
 
 	>>> category_manager.get(name="fruits")
 	>>> Category(id=1, name="fruits", image="http://www.langsea.org/media/site/categories/fruits.png")
@@ -36,12 +37,12 @@ Langsea - Allow to manage easily objects provided by the Langsea API
 	>>> from langsea import MessageManager
 	>>> message_manager = MessageManager()
 
-	## Get all messages
+	-	Get all messages
 
 	>>> message_manager.all()
 	>>> [Message(id=0, words=[ Word, Word, ..]), ..]
 
-	# Get message by id
+	-	Get message by id
 
 	>>> message_manager.get()
 	>>> Message(id=0, words=[ Word, Word, ..])
