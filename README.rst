@@ -4,7 +4,7 @@ Langsea - Allow to manage easily objects provided by the Langsea API
 WordManager
 -----------
 
-	>>> from langsea import WordManager
+    >>> from langsea import WordManager
     >>> word_manager = WordManager()
 
 	-	Get words by category
