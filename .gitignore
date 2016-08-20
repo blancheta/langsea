@@ -1,0 +1,7 @@
+*.pyc
+
+# Packages
+*.egg
+*.egg-info
+.cache
+.tox
